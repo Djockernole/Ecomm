@@ -144,7 +144,6 @@ input::placeholder {
 .shop{
     margin-top: 100px;
     background-color: rgb(239, 238, 238);
-    width: all;
     clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
     display: flex;
     align-items: end;
@@ -239,10 +238,7 @@ height: 733px;
 }
 .newarrivals{
     display: flex;
-    background-color: gray;
-    width: all;
-    height: 500px;
-    
+    background-color: gray;   
 }
 .winter{
     width: 600px;
@@ -281,3 +277,86 @@ height: 733px;
 .hippie{
     transform: rotateY(180deg); ;
 }
+.navDown{
+    display: flex;
+    width: all;
+    
+}
+.company{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    width: 1000px;
+}
+.information {
+    display: flex;
+    margin-left: 60px;
+    flex-direction: column;
+    margin-right:   40px;
+    
+}
+.title_{
+    margin-bottom: 15px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.contenu_{
+    line-height: 27px;
+    width: 75px;
+    color: gray;
+    cursor: pointer;
+}
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 50px 50px 50px 30px;
+    justify-content: space-between;
+}
+.email {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    gap: 10px; 
+}
+.subscribe h3{
+    font-size: 16px;
+}
+.placeholder{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0.25vw;
+}
+
+.youremail{
+    padding: 5px;
+    width: 12vw;
+    
+}
+.placeholder button{
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border: 1px solid;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7vw;
+}
+.socialmedia{
+    display: flex;
+    gap:0.5vw;
+}
+.description{
+    color: gray;
+    font-weight: 300;
+    font-size: 14px;;
+}
+    
+
